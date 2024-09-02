@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BELTEI International BELTEI LIBRARY</title>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="styles/main-degree.css">
+
+  <!--Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="
+  background-color: rgb(45, 42, 42);
+">
+  <!-- Loading Screen -->
+  <section>
+    <div id="loader">
+      <span style="--i:1"></span>
+      <span style="--i:2"></span>
+      <span style="--i:3"></span>
+      <span style="--i:4"></span>
+      <span style="--i:5"></span>
+      <span style="--i:6"></span>
+      <span style="--i:7"></span>
+      <span style="--i:8"></span>
+      <span style="--i:9"></span>
+      <span style="--i:10"></span>
+      <span style="--i:11"></span>
+      <span style="--i:12"></span>
+      <span style="--i:13"></span>
+      <span style="--i:14"></span>
+      <span style="--i:15"></span>
+      <span style="--i:16"></span>
+      <span style="--i:17"></span>
+      <span style="--i:18"></span>
+      <span style="--i:19"></span>
+      <span style="--i:20"></span>
+    </div>
+  </section>
+
+  <div style="
+    position: fixed;
+    background-color: hsl(187, 92%, 48%);
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 55rem;
+  ">
+    <a href="Cheaheng-from-group1.html">
+      <div style="
+        position: absolute;
+        padding-top: 25px;
+        padding-left: 35px;
+      ">
+        <i class="fa fa-chevron-left" aria-hidden="true" 
+        style="
+          color: white;
+        ">
+        </i>
+      </div>
+    </a>
+
+    <div>
+      <h2 style="
+          text-align: center;
+          color: hsl(0, 0%, 100%);
+          font-family: Roboto;
+        ">
+        Main Degree
+      </h2>
+    </div>
+  </div>
+
+  <a href="inside-the-degree.html" style="text-decoration: none;">
+    <div class="Degree">
+      <img src="img/Cap-clipart.jpg" alt="English Intensive Course">
+      <div class="degree-info">
+        Degree
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </div>
+    </div>
+  </a>
+
+ <script>
+  // JavaScript to handle the loading animation
+  window.addEventListener("load", function(){
+    const loader = document.getElementById("loader");
+    const mainContent = document.getElementById("main-content");
+
+    setTimeout(function(){
+      loader.parentElement.style.display = "none";
+      mainContent.style.display = "block";
+    }, 6000);
+  });
+ </script>
+</body>
+</html>

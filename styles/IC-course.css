@@ -1,0 +1,64 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.english-intensive-course {
+  position: relative;
+  background-color: hsl(0, 2%, 18%);
+  color: white;
+  padding: 20px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+.computer-intensive-course {
+  position: relative;
+  background-color: hsl(0, 2%, 18%);
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.english-intensive-course img, .computer-intensive-course img {
+  height: 60px;
+  width: 70px;
+  object-fit: cover;
+}
+
+.course-info {
+  margin-left: 20px;
+  font-size: 20px;
+  flex-grow: 1;
+}
+
+.course-info i {
+  position: absolute;
+  right: 20px;
+  cursor: pointer; 
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+
+  .english-intensive-course, .computer-intensive-course{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .course-info {
+    font-size: 16px;
+    margin-left: 10px;   
+  }
+
+  .course-info i {
+    right: 10px;
+    bottom: 10px; 
+  }
+}

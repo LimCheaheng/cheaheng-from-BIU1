@@ -1,0 +1,120 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.biu-university{
+  color: hsl(219, 92%, 55%);
+  transition: all 0.3s;
+  font-size: 30px;
+  align-items: center;
+  text-decoration: none;
+  margin-top: -100px;
+}
+
+.BIU-Library {
+  margin-top: -100px;
+  margin-left: 220px;
+  text-align: center;
+  justify-content: center;
+}
+img{
+  height: 100px;
+  width: 90px;
+  padding: 10px;
+}
+
+.khmer-text{
+  font-family: khmer;
+  color: hsla(63, 100%, 50%, 0.796);
+  margin-left: 250px;
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.menu-link, .contact-link, .about-us-link{
+  color: white;
+  text-decoration: none;
+  margin: 80px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.menu-link:hover, .about-us-link:hover, .contact-link:hover{
+  opacity: 0.8;
+}
+
+.menu:active, .about-us:active, .contact:active{
+  opacity: 0.4;
+}
+
+/* animation slideToLeft*/
+.BIU-pic {
+  height: 300px;
+  flex-shrink: 0;
+  width: 35%;
+  margin-left: -10px;
+  animation: slideToLeft 10s infinite;
+}
+
+@keyframes slideToLeft {
+  from {
+    transform: translateX(-460%);
+  }
+
+  to {
+    transform: translateX(64px);
+  }
+}
+/*---------------------*/
+
+/* animate appear*/
+ .animate-appear-after {
+  opacity: 0;
+  font-size: 35px;
+  animation: appear 4s infinite;
+}
+
+.animate-appear {
+  opacity: 0;
+  font-size: 35px;
+  animation: appear 4s infinite;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*---------------------*/
+
+/* before-after pseodo class */
+.animate-appear::before{
+  content: "🎓🎓";
+}
+.animate-appear::after{
+  content: "🎓🎓";
+}
+
+.animate-appear-after::before{
+  content: "🎓🎓";
+}
+.animate-appear-after::after{
+  content: "🎓🎓";
+}
+/*--------------------------------*/
+.graduate-image {
+  height: 100%;
+  width: 15%;
+}

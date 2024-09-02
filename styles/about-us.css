@@ -1,0 +1,35 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.group-member-pic {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-right: 18px;
+}
+
+.member-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.member-name {
+  margin-top: 10px;
+  margin-right: 18px;
+}
+
+.group-member-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  top: 100px;
+  color: white;
+}

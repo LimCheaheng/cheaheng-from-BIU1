@@ -1,0 +1,82 @@
+.degree-main-container {
+  position: relative;
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+  padding: 20px;
+  margin-top: 80px;
+  display: flex;
+  border-radius: 5px;
+  line-height: 30px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.6);
+  height: 350px;
+}
+
+.degree-info {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.graduate-cap {
+  height: 70px;
+  width: 90px;
+}
+
+i {
+  position: absolute;
+  right: 30px;
+  color: white;
+  top: 15px;
+}
+
+.degree-contents {
+  position: absolute;
+  bottom: 220px;
+  display: block;
+  background-color: hsl(187, 92%, 42%);
+  width: 85%;
+  padding: 10px;
+  margin-left: -80px;
+  color: white;
+}
+
+.degree-contents2 {
+  position: absolute;
+  bottom: 160px;
+  display: block;
+  background-color: hsl(187, 92%, 42%);
+  width: 85%;
+  padding: 10px;
+  margin-left: -80px;
+  color: white;
+}
+
+.degree-contents3 {
+  position: absolute;
+  bottom: 100px;
+  display: block;
+  background-color: hsl(187, 92%, 42%);
+  width: 85%;
+  padding: 10px;
+  margin-left: -80px;
+  color: white;
+}
+
+.degree-contents4 {
+  position: absolute;
+  bottom: 40px;
+  display: block;
+  background-color: hsl(187, 92%, 42%);
+  width: 85%;
+  padding: 10px;
+  margin-left: -80px;
+  color: white;
+}
+
+.degree-contents, 
+.degree-contents2, 
+.degree-contents3, 
+.degree-contents4 {
+  border-radius: 5px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
